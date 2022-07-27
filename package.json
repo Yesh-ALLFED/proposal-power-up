@@ -1,0 +1,14 @@
+{
+  "name": "proposal-power-up",
+  "version": "1.0.0",
+  "description": "proposal power up for ALLFED project proposals on Trello",
+  "main": "index.js",
+  "repository": "https://github.com/Yesh-ALLFED/proposal-power-up.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/html/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
