@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "follow-redirects": "^1.15.1"
   }
 }
