@@ -8,13 +8,6 @@ console.log('Hi Trello, this time is the charm');
 //const auth = new GoogleAuth({scopes: 'https://www.googleapis.com/auth/drive'});
 //const script = google.script({version: 'v1', auth});
 
-// make the API request
-
-script.scripts.run({
-    auth: auth,
-    resource: {function: 'trelloMap'},
-    scriptId: scriptid,
-});
 
 var onBtnClick = function (t, opts) {
    // return t.popup({
