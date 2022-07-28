@@ -49,8 +49,9 @@ var onBtnClick = function (t, opts) {
 
     req.end();
     //});
-    //console.log('Someone clicked the button');
+    console.log('Someone clicked the button');
 
+   
 
   };
 
