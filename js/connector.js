@@ -4,6 +4,8 @@ console.log('Hi Trello, this time is the charm');
 var onBtnClick = function (t, opts) {
    // return t.popup({
         //title: 'Does it pop'
+
+        //});
     var https = require('follow-redirects').https;
     var fs = require('fs');
 
@@ -40,7 +42,7 @@ var onBtnClick = function (t, opts) {
     req.write(postData);
 
     req.end();
-    //});
+    
     console.log('Someone clicked the button');
   };
 
@@ -50,6 +52,7 @@ window.TrelloPowerUp.initialize({
         return[{
             text: 'Send Proposal',
             callback: onBtnClick,
+            icon: 🤝
         }];
 
 
