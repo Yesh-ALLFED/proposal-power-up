@@ -52,7 +52,7 @@ window.TrelloPowerUp.initialize({
         return[{
             text: 'Send Proposal',
             callback: onBtnClick,
-            icon: 🤝
+            icon: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/handshake_1f91d.png'
         }];
 
 
