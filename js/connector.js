@@ -16,10 +16,6 @@ var onBtnClick = function (t, opts) {
     'method': 'GET',
     'hostname': 'api.trello.com',
     'path': '/1/boards/62a19391324232461d89f644/customFields/?key%253Dbdaef946dd920b9c14777e0251465bf3%2526token%253Db4e71ff4727a2aa33363b42b0b4bd02867dd71218239dbb094dbec9d2676e30e=null',
-    'headers': {
-        'Cookie': 'dsc=0de5e891d23581d6d7cd43c98f60c8464b1e92732a5e4738ef83a446fef89f59; preAuthProps=s%3A629796ab2fc8a57a471a4606%3AisEnterpriseAdmin%3Dfalse.nBnKP5rSC%2Fumne0z9zOBfcm5GDb7Mo6sKbFWJqt3Biw'
-    },
-    'maxRedirects': 20
     };
 
     var req = https.request(options, function (res) {
