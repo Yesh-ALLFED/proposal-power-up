@@ -14,6 +14,7 @@ var onBtnClick = function (t, opts) {
 
         if (response.ok){
             let json = response.json();
+            console.log(json);
         } else {
             alert(response.status);
         }
