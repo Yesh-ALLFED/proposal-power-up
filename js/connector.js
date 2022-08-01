@@ -10,14 +10,10 @@ var onBtnClick = function (t, opts) {
 
         //});
         var url = `https://api.trello.com/1/boards/${MyBoard}/customFields/?${KeyToken}`;
-        let response = fetch(url);
-
-        if (response.ok){
-            let json = response.json();
-            console.log(json);
-        } else {
-            alert(response.status);
-        }
+        fetch(url)
+        .then((response) => response.json())
+        .then((data) => console.log(data));
+        
     
         console.log('Someone clicked the button');
   };
