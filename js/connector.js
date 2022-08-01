@@ -9,7 +9,7 @@ var onBtnClick = function (t, opts) {
         //title: 'Does it pop'
 
         //});
-        var url = 'https://api.trello.com/1/boards/{{MyBoard}}/customFields/?{{KeyToken}}';
+        var url = `https://api.trello.com/1/boards/${MyBoard}/customFields/?${KeyToken}`;
         let response = fetch(url);
 
         if (response.ok){
