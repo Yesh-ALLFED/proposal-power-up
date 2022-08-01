@@ -19,8 +19,8 @@ var onBtnClick = function (t, opts) {
             console.log(data);
           });
 
-          return t.cards('id', 'name')
-          .then(cardQueryCb);
+          //return t.cards('id', 'name')
+          //.then(cardQueryCb);
     
     console.log('Someone clicked the button');
   };
